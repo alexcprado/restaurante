@@ -13,9 +13,10 @@ function Header() {
           <a href="#sobre">Sobre</a>
         </nav>
 
-        <a className="button button--small" href="#cardapio">
-          Faça seu pedido
-        </a>
+        <button className="cart-trigger" type="button" aria-label="Abrir carrinho">
+          <span>Meu pedido</span>
+          <span className="cart-trigger__count">0</span>
+        </button>
       </div>
     </header>
   )
