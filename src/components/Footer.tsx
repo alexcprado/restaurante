@@ -1,13 +1,7 @@
 function Footer() {
   return (
     <footer className="footer" id="sobre">
-      <div className="container footer__grid">
-        <div>
-          <span className="footer__icon">◫</span>
-          <strong>Eventos</strong>
-          <p>Faça seus eventos aqui!</p>
-        </div>
-
+      <div className="container footer__grid footer__grid--two">
         <div>
           <span className="footer__icon">☎</span>
           <strong>Fale conosco</strong>
